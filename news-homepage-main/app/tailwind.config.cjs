@@ -10,6 +10,14 @@ module.exports = {
       dark_grayish_blue: "hsl(236, 13%, 42%)",
       very_dark_blue: "hsl(240, 100%, 5%)",
     },
+    fontFamily: {
+      Inter: "Inter",
+    },
+    fontWeight: {
+      semi_bold: "400",
+      bold: "700",
+      bolder: "800",
+    },
     extend: {
       screens: {
         Mobile: "375px",
@@ -17,14 +25,6 @@ module.exports = {
       },
       fontSize: {
         paragraph: "15px",
-      },
-      fontFamily: {
-        Inter: "Inter",
-      },
-      fontWeight: {
-        semi_bold: "400",
-        bold: "700",
-        bolder: "800",
       },
     },
   },
