@@ -2,14 +2,19 @@ import { navigationLinks } from "../constants";
 import { ReactComponent as Logo } from "../assets/images/logo.svg";
 import { ReactComponent as HamburgerMenu } from "../assets/images/icon-menu.svg";
 
-export const Navigation = () => {
+export const Navigation = ({ setIsMobileMenuOpend }) => {
   return (
     <nav className="px-4 py-8 flex justify-between items-center">
       <div>
         <Logo />
       </div>
       <NavigationLinks />
-      <HamburgerMenu className="block md:hidden" />
+      <button
+        className="block md:hidden"
+        onClick={() => setIsMobileMenuOpend(true)}
+      >
+        <HamburgerMenu />
+      </button>
     </nav>
   );
 };
