@@ -20,7 +20,7 @@ export const Header = ({}) => {
               <h1 className="font-Inter font-bolder text-4xl md:text-6xl text-very_dark_blue leading-9 md:max-w-[320px]">
                 The Bright Future of Web 3.0?
               </h1>
-              <div className="mt-4 md:mt-0 w-[350px] flex flex-col justify-between gap-y-5">
+              <div className="mt-4 md:mt-0 max-w-[350px] flex flex-col justify-between gap-y-5">
                 <p className="font-Inter text-md text-dark_grayish_blue">
                   We dive into the next evolution of the web that claims to put
                   the power of the platforms back into the hands of the people.
