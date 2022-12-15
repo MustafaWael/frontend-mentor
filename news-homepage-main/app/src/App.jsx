@@ -6,21 +6,21 @@ import { MobileMenu } from "./Components/MobileMenu";
 import { Navigation } from "./Components/Navigation";
 
 function App() {
-  const [isMobileMenuOpend, setIsMobileMenuOpend] = useState(false);
+  const [isMobileMenuOpened, setIsMobileMenuOpened] = useState(false);
 
   const mobileMenuHandler = (val) => {
     val
       ? (document.documentElement.style.overflow = "hidden")
       : (document.documentElement.style.overflow = "auto");
-    setIsMobileMenuOpend(val);
+    setIsMobileMenuOpened(val);
   };
 
   return (
     <div className="max-w-[1200px] mx-auto">
-      <Navigation setIsMobileMenuOpend={mobileMenuHandler} />
+      <Navigation setIsMobileMenuOpened={mobileMenuHandler} />
       <MobileMenu
-        isMobileMenuOpend={isMobileMenuOpend}
-        setIsMobileMenuOpend={mobileMenuHandler}
+        isMobileMenuOpened={isMobileMenuOpened}
+        setIsMobileMenuOpened={mobileMenuHandler}
       />
       <Header />
       <Main />
