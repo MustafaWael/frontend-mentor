@@ -4,7 +4,7 @@ import { ReactComponent as HamburgerMenu } from "../assets/images/icon-menu.svg"
 
 export const Navigation = ({ setIsMobileMenuOpend }) => {
   return (
-    <nav className="px-6 py-8 flex justify-between items-center">
+    <nav className="px-4 py-8 flex justify-between items-center">
       <div>
         <Logo />
       </div>
