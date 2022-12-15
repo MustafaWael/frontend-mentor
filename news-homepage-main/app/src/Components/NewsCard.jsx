@@ -15,7 +15,7 @@ const ListItem = ({ title, subTitle }) => {
   return (
     <li className="[&:not(:last-child)]:pb-10 xl:[&:not(:last-child)]:pb-14 [&:not(:last-child)]:border-b-[1px] border-dark_grayish_blue">
       <h3 className="font-Inter font-bold text-lg text-off_white hover:text-soft_orange cursor-pointer">{title}</h3>
-      <p className="text-grayish_blue">{subTitle}</p>
+      <p className="text-grayish_blue mt-2">{subTitle}</p>
     </li>
   );
 };
