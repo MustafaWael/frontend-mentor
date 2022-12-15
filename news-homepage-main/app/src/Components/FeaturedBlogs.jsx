@@ -13,7 +13,7 @@ const BlogItem = ({ no, title, subTitle, image }) => (
     </div>
     <div className="flex flex-col justify-around gap-y-4">
       <span className="font-Inter font-bold text-2xl text-grayish_blue">{no}</span>
-      <h2 className="font-Inter font-bolder text-lg text-very_dark_blue">{title}</h2>
+      <h2 className="font-Inter font-bolder text-lg text-very_dark_blue hover:text-soft_red cursor-pointer">{title}</h2>
       <p className="font-Inter text-paragraph text-dark_grayish_blue">{subTitle}</p>
     </div>
   </li>

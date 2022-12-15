@@ -26,7 +26,7 @@ export const Header = ({}) => {
                   the power of the platforms back into the hands of the people.
                   But is it really fulfilling its promise?
                 </p>
-                <button className="px-9 py-4 uppercase text-off_white bg-soft_red font-Inter font-bold text-sm tracking-[5.5px] self-start">
+                <button className="px-9 py-4 uppercase text-off_white bg-soft_red font-Inter font-bold text-sm tracking-[5.5px] self-start hover:bg-very_dark_blue">
                   Read more
                 </button>
               </div>

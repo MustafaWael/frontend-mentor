@@ -25,7 +25,7 @@ const NavigationLinks = () => {
       {navigationLinks.map((link) => (
         <li key={link.id}>
           <a
-            className="font-inter text-dark_grayish_blue"
+            className="font-inter text-dark_grayish_blue hover:text-soft_red cursor-pointer"
             href={`#${link.text.toLocaleLowerCase()}`}
           >
             {link.text}
