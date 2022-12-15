@@ -17,7 +17,7 @@ export const Header = ({}) => {
             </div>
 
             <div className="mt-4 flex flex-col md:flex-row justify-between gap-x-16">
-              <h1 className="font-Inter font-bolder text-4xl md:text-6xl text-very_dark_blue leading-9 md:max-w-[320px]">
+              <h1 className="font-Inter font-bolder text-4xl md:text-5xl 2xl:text-6xl text-very_dark_blue leading-9 md:max-w-[320px]">
                 The Bright Future of Web 3.0?
               </h1>
               <div className="mt-4 md:mt-0 max-w-[350px] flex flex-col justify-between gap-y-5">
