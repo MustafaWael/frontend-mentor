@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { Footer } from "./Components/Footer";
+import { Header } from "./Components/Header";
+import { Main } from "./Components/Main";
 import { MobileMenu } from "./Components/MobileMenu";
 import { Navigation } from "./Components/Navigation";
 
@@ -19,6 +22,9 @@ function App() {
         isMobileMenuOpend={isMobileMenuOpend}
         setIsMobileMenuOpend={mobileMenuHandler}
       />
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
