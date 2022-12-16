@@ -2,7 +2,7 @@ import { navigationLinks } from "../constants";
 import { ReactComponent as Logo } from "../assets/images/logo.svg";
 import { ReactComponent as HamburgerMenu } from "../assets/images/icon-menu.svg";
 
-export const Navigation = ({ setIsMobileMenuOpend }) => {
+export const Navigation = ({ setIsMobileMenuOpened }) => {
   return (
     <nav className="px-4 py-8 flex justify-between items-center">
       <div>
@@ -11,7 +11,7 @@ export const Navigation = ({ setIsMobileMenuOpend }) => {
       <NavigationLinks />
       <button
         className="block md:hidden"
-        onClick={() => setIsMobileMenuOpend(true)}
+        onClick={() => setIsMobileMenuOpened(true)}
       >
         <HamburgerMenu />
       </button>
