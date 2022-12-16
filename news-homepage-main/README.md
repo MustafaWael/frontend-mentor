@@ -2,7 +2,7 @@
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
-- [Repo](https://github.com/MustafaWael/frontend-mentor/tree/main/news-homepage-main)
+- [React vite app](https://github.com/MustafaWael/frontend-mentor/tree/main/news-homepage-main/app)
 - [Demo](https://front-end-menor-challenges-news-homepage-main.netlify.app)
 
 ## Welcome! 👋
