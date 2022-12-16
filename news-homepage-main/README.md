@@ -1,7 +1,9 @@
 # Frontend Mentor - News homepage
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
-[Demo URL](https://app.netlify.com/sites/front-end-menor-challenges-news-homepage-main)
+
+- [Repo](https://github.com/MustafaWael/frontend-mentor/tree/main/news-homepage-main)
+- [Demo](https://front-end-menor-challenges-news-homepage-main.netlify.app)
 
 ## Welcome! 👋
 
