@@ -13,7 +13,7 @@ export const Footer = () => {
         . Coded by{" "}
         <a
           className="text-soft_red font-bold"
-          href="https://www.twitter.com/@_mustafa_wael_"
+          href="https://twitter.com/_mustafa_wael_"
         >
           @Mustafa Wael
         </a>
