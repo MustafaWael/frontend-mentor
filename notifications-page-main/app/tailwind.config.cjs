@@ -13,7 +13,7 @@ module.exports = {
       very_dark_blue: "hsl(224, 21%, 14%)",
     },
     fontFamily: {
-      "Plus Jakarta": "Plus Jakarta Sans",
+      "Plus-Jakarta": "Plus Jakarta Sans",
     },
     fontWeight: {
       bold: "500",
