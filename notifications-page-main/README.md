@@ -2,6 +2,9 @@
 
 ![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
 
+- [React vite app](https://github.com/MustafaWael/frontend-mentor/tree/main/notifications-page-main/app)
+- [Demo](https://front-end-mentor-challenge-notifications-page.netlify.app)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
