@@ -29,7 +29,7 @@ export const NotificationList = ({ notifications }) => {
         </button>
       </div>
       
-      <ul className="flex flex-col gap-7">
+      <ul className="flex flex-col gap-3">
         {notificationList.map(({ id, user, action, date, hasBeenRead }) => {
           return (
             <Notification
