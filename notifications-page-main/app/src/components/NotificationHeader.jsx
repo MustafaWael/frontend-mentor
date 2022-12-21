@@ -13,7 +13,7 @@ export const NotificationHeader = ({
   };
 
   return (
-    <section className="flex justify-between items-center font-Plus-Jakarta mb-8">
+    <header className="flex justify-between items-center font-Plus-Jakarta mb-8">
       <div className="flex gap-x-2 items-center">
         <h1 className="text-very_dark_blue font-bolder text-2xl">
           Notifications
@@ -29,6 +29,6 @@ export const NotificationHeader = ({
       >
         Mark all as read
       </button>
-    </section>
+    </header>
   );
 };
