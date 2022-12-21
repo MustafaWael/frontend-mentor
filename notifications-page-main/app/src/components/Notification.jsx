@@ -28,7 +28,10 @@ export const Notification = ({
         <div className="flex flex-col gap-3">
           <div>
             <p className="inline-block items-center leading-[18px] text-sm ">
-              <Link className="font-bolder mr-1 hover:text-blue" to="/profile/username">
+              <Link
+                className="font-bolder mr-1 hover:text-blue"
+                to="/profile/username"
+              >
                 {user.name}
               </Link>
               <span className="text-dark_grayish_blue mr-1 font-bold">
@@ -49,9 +52,9 @@ export const Notification = ({
                 <span className="inline-block rounded-full w-[6px] h-[6px] bg-red align-middle"></span>
               ) : null}
             </p>
-            <time className="block text-xs text-grayish_blue font-bold">
+            <div className="block text-xs text-grayish_blue font-bold">
               {date}
-            </time>
+            </div>
           </div>
           {message ? (
             <Link

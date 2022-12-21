@@ -13,11 +13,11 @@ export const NotificationHeader = ({
   };
 
   return (
-    <div className="flex justify-between items-center font-Plus-Jakarta mb-8">
+    <section className="flex justify-between items-center font-Plus-Jakarta mb-8">
       <div className="flex gap-x-2 items-center">
-        <p className="text-very_dark_blue font-bolder text-2xl">
+        <h1 className="text-very_dark_blue font-bolder text-2xl">
           Notifications
-        </p>
+        </h1>
         <span className="inline-block bg-blue text-White px-[10px] py-[1px] rounded-md text-md font-bold h-fit">
           {notMarkedCount}
         </span>
@@ -29,6 +29,6 @@ export const NotificationHeader = ({
       >
         Mark all as read
       </button>
-    </div>
+    </section>
   );
 };
