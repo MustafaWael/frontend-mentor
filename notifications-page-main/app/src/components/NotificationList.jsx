@@ -17,14 +17,14 @@ export const NotificationList = ({ notifications }) => {
     <article className="bg-White rounded-lg shadow-[0_0_30px_-3px_hsl(211,68%,94%)] p-4 max-w-[620px]">
       <div className="flex justify-between items-center font-Plus-Jakarta mb-5">
         <div className="flex gap-x-2 items-center">
-          <p className="text-very_dark_blue font-bolder text-md">
+          <p className="text-very_dark_blue font-bolder text-2xl">
             Notifications
           </p>
-          <span className="bg-blue text-White px-[9px] py-[2px] rounded text-xs font-bold h-fit">
+          <span className="inline-block bg-blue text-White px-[12px] py-[2px] rounded-md text-md font-bold h-fit">
             {notMarkedCount}
           </span>
         </div>
-        <button className="text-xs font-bold text-dark_grayish_blue hover:text-blue" onClick={markAllAsRead} disabled={!notMarkedCount}>
+        <button className="text-md font-bold text-dark_grayish_blue hover:text-blue" onClick={markAllAsRead} disabled={!notMarkedCount}>
           Mark all as read
         </button>
       </div>
