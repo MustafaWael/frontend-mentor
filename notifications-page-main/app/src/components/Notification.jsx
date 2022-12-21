@@ -27,7 +27,7 @@ export const Notification = ({
 
         <div className="flex flex-col gap-3">
           <div>
-            <p className="inline-block items-center leading-[18px] text-sm ">
+            <h2 className="inline-block items-center leading-[18px] text-sm ">
               <Link
                 className="font-bolder mr-1 hover:text-blue"
                 to="/profile/username"
@@ -51,7 +51,7 @@ export const Notification = ({
               {!hasBeenRead ? (
                 <span className="inline-block rounded-full w-[6px] h-[6px] bg-red align-middle"></span>
               ) : null}
-            </p>
+            </h2>
             <div className="block text-xs text-grayish_blue font-bold">
               {date}
             </div>
