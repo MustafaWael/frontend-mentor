@@ -1,6 +1,8 @@
 # Frontend Mentor - Multi-step form
 
 ![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)
+- [React vite app](https://github.com/MustafaWael/frontend-mentor/edit/main/multi-step-form-main/app)
+- [Demo](https://frontend-mentor-challenge-multi-step-form.netlify.app)
 
 ## Welcome! 👋
 
